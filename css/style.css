@@ -1,0 +1,131 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navigation {
+  margin-top: 33px;
+  font-family: var(--font-1);
+  /* height: 38px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  font-size: 36px;
+  display: flex;
+}
+.nav-left span {
+  font-size: 34px;
+  margin-top: 6px;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 24px;
+}
+.nav-left ul li {
+  font-family: var(--font-3);
+  list-style: none;
+  cursor: pointer;
+  margin: 0 14px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-right {
+}
+
+.content {
+  height: 100%;
+  padding: 9px;
+  display: flex;
+  margin-top: 32px;
+  position: relative;
+  border-radius: 12px;
+}
+.content::after {
+  content: " ";
+  background-image: url("../image/article.jpg");
+  position: absolute;
+  width: 68%;
+  height: inherit;
+  opacity: 0.15;
+}
+
+.content-left {
+  font-family: var(--font-3);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.content-left h1 {
+  padding: 20px 0;
+}
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-right img {
+  height: 355px;
+  border: 2px solid black;
+  border-radius: 200px;
+}
+.home-articles {
+  background-color: rgba(240, 173, 173, 0.411);
+  /* height: 355px; */
+  padding-top: 5px;
+  margin-top: 23px;
+  position: relative;
+}
+.year-box{
+  position: absolute;
+  width: 244px;
+  height: 245px;
+  right: -36px;
+    top: 43px;
+}
+.home-articles h2 {
+  font-weight:bolder;
+  margin:23px;
+  font-size:33px;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-article img {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.footer a {
+  color: rgb(255, 255, 255);
+}

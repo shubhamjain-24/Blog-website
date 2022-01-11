@@ -1,0 +1,33 @@
+.contact-content{
+ height: 395px;
+ height:80vh ;
+  padding: 9px;
+  display: block;
+  margin-top: 32px;
+  position: relative;
+  border-radius: 12px;
+  
+}
+.contact-content::after{
+    content: " ";
+  background-image: url("../image/article.jpg");
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  z-index: -1;
+}
+.from-box input, textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0px;
+   
+}
+.contact-from{
+   
+}
+.from-box{
+    display: flex;
+    justify-content: center;
+}
